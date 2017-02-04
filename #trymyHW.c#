@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+
+int main()
+{
+  int a = 56;
+  int *a = &a;
+  printf("%d",*a);
+  return 0;
+}
